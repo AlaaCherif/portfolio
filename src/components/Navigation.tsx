@@ -1,6 +1,6 @@
 export default function Navigation() {
   return (
-    <div className='w-100 text-3xl flex align-center justify-between p-8 pt-14 mx-20'>
+    <div className='w-100 text-3xl flex flex-col gap-10 md:flex-row align-center justify-between p-4 md:p-6 lg:p-8 mx-20'>
       <div>Alaa Cherif</div>
       <div className='flex align-center justify-around flex-col md:flex-row gap-10'>
         <a className='group transition-all duration-300 ease-in-out' href='#'>

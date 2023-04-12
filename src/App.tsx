@@ -6,7 +6,7 @@ export default function App() {
     <div className='dark'>
       <div className='bg-white text-black dark:bg-black dark:text-white w-full min-h-screen'>
         <Navigation />
-        <div className='mx-20 p-8'>
+        <div className='mx-10 lg:mx-20 p-8'>
           <AnimatedHero />
         </div>
       </div>
