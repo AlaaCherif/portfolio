@@ -15,7 +15,7 @@ export default function Navigation() {
         </a>
 
         <a href='#'>
-          <span className='border-4 py-2 px-4 hover:bg-white hover:text-black transition-all duration-300 ease-in-out'>
+          <span className='border-4 py-2 px-4 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-300 ease-in-out'>
             Contact
           </span>
         </a>
