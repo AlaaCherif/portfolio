@@ -15,9 +15,9 @@ export default function AnimateOnScroll({ children, className }: Props) {
 
   return (
     <div
-      className={`transition-opacity duration-700 ease-in opacity-${
-        show ? '100' : '0'
-      } `}
+      className={`transition-all duration-1000 ease-in ${
+        show ? 'opacity-100' : 'opacity-0'
+      }`}
       ref={ref}
     >
       {children}

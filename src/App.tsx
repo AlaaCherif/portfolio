@@ -1,6 +1,7 @@
 import AnimatedHero from './components/AnimatedHero';
 import Navigation from './components/Navigation';
-import AnimateOnScroll from './components/wrappers/AnimateOnScroll';
+import Projects from './components/sections/Projects';
+import Section from './components/wrappers/Section';
 
 export default function App() {
   return (
@@ -9,12 +10,7 @@ export default function App() {
         <Navigation />
         <div className='mx-10 lg:mx-20 p-8'>
           <AnimatedHero />
-          <div className='w-full h-screen'></div>
-          <AnimateOnScroll>
-            <div className='bg-white w-full h-1/2 text-black'>
-              oh mafama chay lena xD
-            </div>
-          </AnimateOnScroll>
+          <Projects />
         </div>
       </div>
     </div>

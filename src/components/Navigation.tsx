@@ -5,12 +5,13 @@ export default function Navigation() {
       <div className='flex align-center justify-around flex-col md:flex-row gap-10'>
         <a className='group transition-all duration-300 ease-in-out' href='#'>
           <span className='bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
-            Projects
+            About
           </span>
         </a>
+
         <a className='group transition-all duration-300 ease-in-out' href='#'>
           <span className='bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
-            About
+            Projects
           </span>
         </a>
 
